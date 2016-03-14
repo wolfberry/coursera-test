@@ -2,6 +2,18 @@ h1 {
 	color: maroon;
 	display: inline-block;
 }
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#box {
+	background-color: gray;
+	padding: 10px;
+	border: 2px solid black;
+	margin-top: 20px;
+}
 .row:after {
     content: "";
     clear: both;
