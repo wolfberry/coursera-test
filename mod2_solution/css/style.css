@@ -10,11 +10,18 @@ h1 {
 
 
 #box {
+	position: relative;
 	background-color: gray;
 	padding: 10px 10px 10px 10px;
 	border: 2px solid black;
 	margin: 5px;
 }
+
+.content {
+    position: absolute;
+    color: black;
+}
+
 .row:after {
     content: "";
     clear: both;
